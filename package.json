@@ -1,6 +1,6 @@
 {
   "name": "cars-karma-spec-reporter",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "A Karma plugin. Report all spec-results to console (like mocha's spec reporter). With regex handles for parsing error output",
   "main": "index.js",
   "scripts": {
@@ -36,6 +36,6 @@
     "index.js"
   ],
   "publishConfig": {
-  "registry": "https://repository.cars.com/artifactory/api/npm/npm-local"
+    "registry": "https://repository.cars.com/artifactory/api/npm/npm-local"
   }
 }
