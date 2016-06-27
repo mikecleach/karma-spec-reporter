@@ -55,6 +55,7 @@ var SpecReporter = function(baseReporterDecorator, formatError, config) {
 
   this.logFinalErrors = function(errors) {
     this.writeCommonMsg('\n\n') ;
+    this.writeCommonMsg('START_ERROR_OUTPUT\n');
     this.WHITESPACE = '     ';
 
     errors.forEach(function(failure, index) {
@@ -74,6 +75,7 @@ var SpecReporter = function(baseReporterDecorator, formatError, config) {
       }, this);
     }, this);
 
+    this.writeCommonMsg('END_ERROR_OUTPUT');
     this.writeCommonMsg('\n') ;
   };
 

@@ -1,7 +1,7 @@
 {
-  "name": "karma-spec-reporter",
+  "name": "cars-karma-spec-reporter",
   "version": "0.0.26",
-  "description": "A Karma plugin. Report all spec-results to console (like mocha's spec reporter).",
+  "description": "A Karma plugin. Report all spec-results to console (like mocha's spec reporter). With regex handles for parsing error output",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha-runner --reporter spec 'test/**/*.spec.js'",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mlex/karma-spec-reporter.git"
+    "url": "git://github.com/mikecleach/karma-spec-reporter.git"
   },
   "keywords": [
     "karma-plugin",
