@@ -34,5 +34,8 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "publishConfig": {
+  "registry": "https://repository.cars.com/artifactory/api/npm/npm-local"
+  }
 }
